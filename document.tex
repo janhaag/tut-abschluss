@@ -15,8 +15,6 @@ titlepage=true%
 ]{scrartcl}
 
 
-\usepackage{scrpage2}
-\usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[ngerman]{babel}
 \usepackage{amsmath}
@@ -30,7 +28,8 @@ citecolor=black,
 draft=false,
 bookmarks,
 bookmarksnumbered=true,
-plainpages=false]{hyperref}
+plainpages=false%
+]{hyperref}
 
 \usepackage[pdftex]{graphicx}
 \usepackage{epstopdf}
@@ -49,6 +48,34 @@ plainpages=false]{hyperref}
 \begin{document}
 \maketitle
 \section{Meine Lehre und ihr Umfeld}
+Da sp\"{a}tere Veranstaltungen stark auf den in Programmieren gelehrten Grundlagen aufbauen
+ist Programmieren ein wichtiger bestandteil des Informatikstudiums.
+Dem steht entgegen, dass viele Tutanden aufgrund von Vorwissen
+aus Beruf, Schule und Hobbies dieses Fach als unn\"{o}tig empfinden,
+da ein Lernfortschritt f\"{u}r sie praktisch ausbleibt.
+Das prim\"{a}re Ziel der Vorlesung und Tutorien ist also,
+einen Ausgleich zwischen Studenten oder mit wenig oder keinem Vorwissen und solchen mit erheblicher,
+teilweise sogar beruflicher, Erfahrung mit Programmierung zu schaffen.\\
+Aus den gro\ss{}en unterschiden im Wissensstand der Tutanden ergeben sich ebenso unterschiedliche
+Erwartungen and das Tutorium und den Tutor; insbesondere ist -- aufgrund der relativ steilen Lernkurve in
+der Vorlesung -- die Gefahr gro\ss{}, dass einzelne Tutanden trotz entsprechendem Lernaufwand den Anschluss
+verlieren. Solche Tutanden erwarten nat\"{u}rlich von ihrem Tutor, dass er auf ihre Probleme r\"{u}cksicht
+nimmt. Allerdings werden Tutanden mit entsprechendem Vorwissen auf diese weise leicht unterfordert.
+Mir hat es in diesem Spannungsfeld sehr geholfen, meine Tutorien im Vorfeld mit anderen erfahrenen Programmierern,
+zu besprechen. Insbesondere haben mir diese Gespr\"{a}che mitunter Fehleinsch\"{a}tzungen der schwierigkeit von
+Aufgabenstellungen aufgezeigt. Teilweise unzureichend detaillierte Foliens\"{a}tze lie\ss{}en sich dagegen problemlos
+im Tutorium kl\"{a}ren, da die Probleme beim bearbeiten der Aufgabenstellungen in der Regel schnell offensichtlich
+wurden.\\
+Ein weiteres -- trotz erkennbaren verbesserungen --
+immer wieder auftauchendes Problem ist die mangelnde Qualit\"{a}t der Musterl\"{o}sungen, die oft
+unsauber und mitunter schlicht falsch sind. Dies macht es problematisch, bei der Besprechung und Korrektur
+der \"{U}bungsbl\"{a}tter auf die Musterl\"{o}sung bezug zu nehmen. Da die die einzelnen \"{U}bungsaufgaben
+teil eines gr\"{o}\ss{}eren Projektes sind k\"{o}nnen die Fehler in der Musterl\"{o}sung des vorherigen \"{U}bungsblattes
+auch zu fehlern in der Korrektur f\"{u}hren, da einige Studenten diese als Grundlage f\"{u}r ihre L\"{o}sung verwenden;
+dies sollte man bei den Korrekturen also unbedingt ber\"{u}cksichtigen und notfalls die Tutanden auf das Problem hinweisen.
+Ansonsten ist die Koordination zwischen Vorlesungen, \"{U}bungsaufgaben und Tutorien gut gelungen, auch durch einsatz einer
+Mailingliste. Teilweise w\"{a}re jedoch ein st\"{a}rkerer Praxisbezug der Aufgabenvorschl\"{a}ge fur die Tutorien
+w\"{u}nschenswert.
 %    - Unter welchen Rahmenbedingungen h\"{a}ltst du dein Tutorium ab?
 %    - Was m\"{o}chtest du in/mit deinem Tutorium erreichen?
 %    - Welche Erwartungen haben die Studierenden an Tutorien/dein Tutorium?
@@ -58,7 +85,12 @@ plainpages=false]{hyperref}
 %      Lehrveranstaltung?
 %    - Wie beurteilst du die Betreuung durch die \"{U}bungsleiter?
 %    - Welche konkreten Ratschl\"{a}ge w\"{u}rdest du neuen Tutoren deines Faches zu Beginn geben?
+
 \section{Ich als Lehrperson und mein didaktisches Handeln}
+Im hinblick auf die Abschlussaufgaben liegt das hauptinteresse der Tutorien auf der f\"{o}rderung selbst\"{a}ndiger
+Probleml\"{o}sung, w\"{a}hrend die Vorlesung und \"{U}bungsbl\"{a}tter haupts\"{a}chlich methodische aspekte abdecken.
+F\"{u}r mich ist das insofern eine herausforderung, als ich mich oft sehr stark mit der Theoretischen seite
+der Probleme besch\"{a}ftige und deshalb oft umdenken muss.
 %    - In welcher Rolle siehst du dich als Tutor?
 %    - Was tust du, um das Lernen im Tutorium zu f\"{o}rdern?
 %    - Welche Vorstellungen von „guter Lehre“ hast du?
@@ -72,10 +104,12 @@ plainpages=false]{hyperref}
 %      Schwierigkeiten/Widerst\"{a}nde?
 %    - Holst du dir Feedback von deinen Tutanden ein? Falls ja: Wie? Was hast du daraus
 %      mitgenommen?
+
 \section{Pers\"{o}nlicher Qualifizierungsprozess}
 %    - Was hast du aus dem Tutorenprogramm mitgenommen (inhaltlich, pers\"{o}nlich, Sonstiges)?
 %    - In welchen Bereichen m\"{o}chtest du dich gerne weiterentwickeln bzw. deine Kompetenzen
 %      ausbauen?
+
 \section{Lehrhospitation}
 %    - Welche Erfahrungen hast du bei deiner Lehrhospitation gesammelt?
 %    - Welchen Nutzen hast du aus der Lehrhospitation gezogen?
@@ -90,7 +124,6 @@ Lernziele:
 Zeit & Inhalte & Methoden & Medien & Sinn + Zweck
 \hline
 \end{longtable}
-%5. Geplanter Ablauf eines Tutoriums mit kurzer Reflexion (s. nachfolgende Vorlage)
 %    - Wie hat die Umsetzung der Planung in der Praxis funktioniert?
 %    - Wurden die von dir gesetzten Lernziele von deinen Tutanden aus deiner Sicht erreicht? In
 %      wieweit haben dir die Lernziele bei der Planung und Umsetzung deines Tutoriums
